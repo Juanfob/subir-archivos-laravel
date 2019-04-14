@@ -27,6 +27,9 @@ Route::get('/download/{archivo}', function ($archivo) {
         return response()->download($url);
     }else{
         //si no se encuentra lanzamos un error 404.
+
+        //abort(404);
+
         dd($url);
 
     }
