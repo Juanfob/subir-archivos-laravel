@@ -64,7 +64,7 @@ Storage::move('old/file1.jpg', 'new/file1.jpg');
 
 Para más información: https://laravel.com/docs/5.8/filesystem
 
-
+fuente: Styde.net
 
 
 
